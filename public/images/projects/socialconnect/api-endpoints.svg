@@ -1,0 +1,67 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg)"/>
+
+  <!-- Terminal Window -->
+  <rect x="20" y="20" width="560" height="360" fill="url(#terminalBg)" rx="8"/>
+  <rect x="20" y="20" width="560" height="30" fill="#2d3748" rx="8"/>
+
+  <!-- Terminal Title Bar -->
+  <circle cx="35" cy="35" r="6" fill="#ef4444"/>
+  <circle cx="55" cy="35" r="6" fill="#f59e0b"/>
+  <circle cx="75" cy="35" r="6" fill="#10b981"/>
+  <text x="100" y="40" fill="#e2e8f0" font-family="Monaco, 'Courier New', monospace" font-size="12" font-weight="bold">FastAPI ~ SocialConnect Endpoints</text>
+
+  <!-- API Server Status -->
+  <text x="40" y="80" fill="#10b981" font-family="Monaco, 'Courier New', monospace" font-size="14" font-weight="bold">$ curl http://localhost:8000/docs</text>
+
+  <text x="40" y="105" fill="#60a5fa" font-family="Monaco, 'Courier New', monospace" font-size="12">INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)</text>
+  <text x="40" y="125" fill="#10b981" font-family="Monaco, 'Courier New', monospace" font-size="12">INFO:     Application startup complete.</text>
+
+  <text x="40" y="150" fill="#f59e0b" font-family="Monaco, 'Courier New', monospace" font-size="12" font-weight="bold">// API ENDPOINTS</text>
+
+  <!-- Authentication Endpoints -->
+  <text x="40" y="175" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">// Authentication</text>
+  <rect x="40" y="180" width="500" height="20" fill="#1e293b" rx="4"/>
+  <text x="50" y="195" fill="#10b981" font-family="Monaco, 'Courier New', monospace" font-size="12">POST   /api/v1/auth/login</text>
+  <text x="250" y="195" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">User authentication</text>
+
+  <rect x="40" y="205" width="500" height="20" fill="#1e293b" rx="4"/>
+  <text x="50" y="220" fill="#60a5fa" font-family="Monaco, 'Courier New', monospace" font-size="12">POST   /api/v1/auth/register</text>
+  <text x="250" y="220" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">User registration</text>
+
+  <!-- Posts Endpoints -->
+  <text x="40" y="240" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">// Posts Management</text>
+  <rect x="40" y="245" width="500" height="20" fill="#1e293b" rx="4"/>
+  <text x="50" y="260" fill="#f59e0b" font-family="Monaco, 'Courier New', monospace" font-size="12">GET    /api/v1/posts</text>
+  <text x="250" y="260" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">List all posts</text>
+
+  <rect x="40" y="265" width="500" height="20" fill="#1e293b" rx="4"/>
+  <text x="50" y="280" fill="#10b981" font-family="Monaco, 'Courier New', monospace" font-size="12">POST   /api/v1/posts</text>
+  <text x="250" y="280" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">Create new post</text>
+
+  <rect x="40" y="285" width="500" height="20" fill="#1e293b" rx="4"/>
+  <text x="50" y="300" fill="#60a5fa" font-family="Monaco, 'Courier New', monospace" font-size="12">PUT    /api/v1/posts/{id}</text>
+  <text x="250" y="300" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">Update post</text>
+
+  <!-- Analytics Endpoints -->
+  <text x="40" y="320" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">// Analytics</text>
+  <rect x="40" y="325" width="500" height="20" fill="#1e293b" rx="4"/>
+  <text x="50" y="340" fill="#f59e0b" font-family="Monaco, 'Courier New', monospace" font-size="12">GET    /api/v1/analytics/engagement</text>
+  <text x="250" y="340" fill="#94a3b8" font-family="Monaco, 'Courier New', monospace" font-size="12">Get engagement metrics</text>
+
+  <!-- Status Indicator -->
+  <circle cx="520" cy="375" r="8" fill="#10b981"/>
+  <text x="535" y="380" fill="#10b981" font-family="Monaco, 'Courier New', monospace" font-size="12">API Status: Online</text>
+</svg>
