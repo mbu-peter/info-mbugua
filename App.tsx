@@ -424,7 +424,7 @@ Access Level: ADMIN`}
           </a>
 
           {/* LinkedIn Command Box */}
-          <a href="https://linkedin.com/in/peter-mbugua" target="_blank" className="flex items-center gap-4 p-4 border-4 border-[#333] bg-[#2a2a2a] shadow-[inset_4px_4px_0_#444,inset_-4px_-4px_0_#111] hover:bg-[#3a3a3a] transition-colors cursor-pointer">
+          <a href="#" target="_blank" className="flex items-center gap-4 p-4 border-4 border-[#333] bg-[#2a2a2a] shadow-[inset_4px_4px_0_#444,inset_-4px_-4px_0_#111] hover:bg-[#3a3a3a] transition-colors cursor-pointer">
             <div className="w-12 h-12 bg-[#333] border-4 border-[#444] flex items-center justify-center shrink-0">
               <div className="w-6 h-6 bg-[#2563eb] border-b-2 border-[#1d4ed8]"></div>
             </div>
@@ -435,7 +435,7 @@ Access Level: ADMIN`}
           </a>
 
           {/* Twitter Command Box */}
-          <a href="https://twitter.com/mbuguaKhara" target="_blank" className="flex items-center gap-4 p-4 border-4 border-[#333] bg-[#2a2a2a] shadow-[inset_4px_4px_0_#444,inset_-4px_-4px_0_#111] hover:bg-[#3a3a3a] transition-colors cursor-pointer">
+          <a href="https://twitter.com/mbugua_Khara" target="_blank" className="flex items-center gap-4 p-4 border-4 border-[#333] bg-[#2a2a2a] shadow-[inset_4px_4px_0_#444,inset_-4px_-4px_0_#111] hover:bg-[#3a3a3a] transition-colors cursor-pointer">
             <div className="w-12 h-12 bg-[#333] border-4 border-[#444] flex items-center justify-center shrink-0">
               <div className="w-6 h-6 bg-[#64748b] border-b-2 border-[#475569]"></div>
             </div>
